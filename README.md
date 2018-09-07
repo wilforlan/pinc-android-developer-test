@@ -7,9 +7,11 @@ You are required to build out the screen
 Icons and sample images are being provided as part of the design test.
 You will be required to build out a simple login interface for sample user. Sample user login details:
 
+```
+POST: https://api.divercity.io/api/auth/sign_in
 email: `esther@gmail.com`
 password: `password`
-
+```
 After Successfull Authentication, response header will include the following
 `access-token, client, uid ` which will then be passed to every other request as an header like so
 
